@@ -1,11 +1,19 @@
-h1 {
-    text-align: center;
+header {
+    /* text-align: center; <- Can be done with the text-center class via bootstrap */
+    padding: 2%;
 }
 
-.mockjup {
-    display: flex;
-    justify-content: center;
+header > img {
+    /* display: flex;
+    justify-content: center; */
     height: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 }
+
+p {
+    margin-top: 3%;
+    padding: 1%;
+    border: 1px dashed black;
+}
+
 
